@@ -1,0 +1,93 @@
+.background {
+  background-image: url(
+"https://eqjrg9.webwave.dev/lib/eqjrg9/unsplash-image-lz35iq6o.jpg"
+  );
+  
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+  
+
+}
+.Intro{
+  margin-top:10%;
+  font-size: 30px;
+  color:chocolate;
+  margin-left: 10%;
+  font-style:normal;
+  line-height: 18px;
+}
+.caption{
+  color:cadetblue;
+  font-style:italic;
+  font-size:15px;
+  margin-left:10%;
+  line-height: 0px;
+  
+  animation: animate 5s linear infinite;
+
+}
+
+.links{
+  font-size: 17px;
+  font-weight: 400;
+  -webkit-user-select:none;
+  user-select: none;
+
+}
+
+.announcementBar{
+  background-color:lightcyan;
+ overflow:hidden;
+}
+
+.announcementBar a{
+  
+  Margin-left:8%;
+  float: left;
+  color:darkcyan;
+  text-align:justify;
+  padding:8px;
+  font-size:15px;
+  display:inline;
+  line-height: 0px;
+}
+/* Change the color of links on hover */
+.announcementBar a:hover {
+  background-color:burlywood;
+  color:deeppink;
+}
+
+/* Add a color to the active/current link */
+.announcementBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.button{
+  margin-left:20%;
+  width: 20%;
+  margin-top:20%;
+  height: 8%;
+  color:chocolate;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:wavy;
+  background-color: rgba(24, 100, 171, 0.1);
+  font-size: 16px;
+  margin: 90px 150px;
+  cursor: pointer;
+
+}
+.button:hover {
+  background-color:rgba(24, 100, 171, 0.1);
+  color:hotpink;
+  border:5px;
+}
+
+.Aboutdata{
+  color:aqua;
+
+}
